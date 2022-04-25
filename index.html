@@ -17,23 +17,27 @@
     <nav>
       <p><a href="/">Awesome Books</a></p>
       <ul>
-        <li class="list-books"><a> List Books </a></li>
-        <li class="add-books"><a> Add Books </a></li>
-        <li><a> Contact </a></li>
+        <li class="list-books"> List Books </li>
+        <li class="add-books"> Add Books </li>
+        <li class="contact"> Contact </li>
       </ul>
     </nav>
-
-    <div class="books" id="Books-lists"></div>
-    <section id="Add-Books">
-    <form class="add-books">
+    <div class="books-self">
+      <h1> All Awesome Books </h1>
+      <div class="books"></div>
+    </div>
+    <div class="bar"></div>
+    <form class="add-book">
+      <h2>Add a New Book </h2>
       <input id="title" type="text" name="title" placeholder="Add Title" />
       <input id="author" type="text" name="author" placeholder="Add Author" />
-      <button id="add-btn" type="button"> Add Book </button>
-
+      <button class="add-btn" id="add-btn" type="button"> Add Book </button>
     </form>
+    <section class="footer">
+      <div> Copyright @ONJoseph </div>
     </section>
-  </div>
 
   <script src="script.js"></script>
 </body>
+
 </html>
