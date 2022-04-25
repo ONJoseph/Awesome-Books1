@@ -37,7 +37,7 @@ const getStorageData = () => {
 
 window.onload = getStorageData();
 
-// Display Books Data
+// Display Books Data section
 
 const displayBooks = () => {
   const booksList = document.querySelector('.books');
