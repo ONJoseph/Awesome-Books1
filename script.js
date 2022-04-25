@@ -1,3 +1,4 @@
+/* eslint-disable no-plusplus */
 class Library {
   constructor(Title, Author, ID) {
     this.title = Title;
