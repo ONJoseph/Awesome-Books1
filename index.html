@@ -13,29 +13,42 @@
 </head>
 
 <body>
-    <nav>
-      <p><a href="/">Awesome Books</a></p>
+  <nav>
+    <p><a href="/">Awesome Books</a></p>
+    <ul>
+      <li class="list" onclick="displayList()">List</li>
+      <li class="add" onclick="displayAdd()">Add New</li>
+      <li class="contact" onclick="displayContact()">Contact</li>
+    </ul>
+  </nav>
+  <div class="date">
+    <p id="date"></p>
+  </div>
+  <div class="books-self" id="Book-List">
+    <h1>All Awesome Books</h1>
+    <div class="books"></div>
+  </div>
+  <form class="add-book" id="Add-Books">
+    <h2>Add a new book</h2>
+    <input id="title" type="text" name="title" placeholder="Add Title" />
+    <input id="author" type="text" name="author" placeholder="Add Author" />
+    <button class="add-btn" id="add-btn" type="button">Add Book</button>
+  </form>
+
+  <section class="contact" id="contact">
+    <h2>Contact information</h2>
+    <div>
+      <p>"Hello"! Reach out to us if you have any query or concern!</p>
       <ul>
-        <li class="list"> List Books </li>
-        <li class="add"> Add Books </li>
-        <li class="contact"> Contact </li>
+        <li>Our e-mail is onj1513@gmail.com</li>
+        <li>Our phone number is +234 706 809 8181</li>
+        <li>Our address is PHC, Nigeria</li>
       </ul>
-    </nav>
-    <div class="books-self">
-      <h1> All Awesome Books </h1>
-      <div class="books"></div>
     </div>
-    <div class="bar"></div>
-    <form class="add-book">
-      <h2>Add a New Book </h2>
-      <input id="title" type="text" name="title" placeholder="Add Title" />
-      <input id="author" type="text" name="author" placeholder="Add Author" />
-      <button class="add-btn" id="add-btn" type="button"> Add Book </button>
-    </form>
+  </section>
     <section class="footer">
       <div> Copyright @ONJoseph </div>
     </section>
-
   <script src="script.js"></script>
 </body>
 

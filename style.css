@@ -32,6 +32,7 @@ nav ul {
 
 nav ul li {
   padding-right: 10px;
+  border-right: solid 2px black;
 }
 
 nav ul li:hover {
@@ -41,6 +42,26 @@ nav ul li:hover {
 
 nav ul li:last-child {
   padding-right: 15px;
+  border: 0;
+}
+
+#Book-List {
+  display: flex;
+  flex-direction: column;
+}
+
+#Add-Books {
+  display: none;
+  flex-direction: column;
+}
+
+#contact {
+  display: none;
+  flex-direction: column;
+}
+
+#contact ul {
+  list-style: none;
 }
 
 .book {
@@ -109,4 +130,11 @@ nav ul li:last-child {
   margin-top: 50px;
   padding: 15px;
   margin-bottom: 10px;
+}
+
+#date {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  font-weight: 600;
 }
