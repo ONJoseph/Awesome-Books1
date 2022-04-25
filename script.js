@@ -1,12 +1,12 @@
 let awesomeBooks = [];
 
-const generateBooksID =() => {
-  const id =Math.random().toString();
+const generateBooksID = () => {
+  const id = Math.random().toString();
   return id;
 };
 
 const addBooks = (title, author) => {
-  const awesomeBook ={
+  const awesomeBook = {
     title,
     author,
     id: generateBooksID(),
@@ -33,7 +33,7 @@ const getStorageData = () => {
 
 window.onload = getStorageData();
 
-//Display Books Data section
+// Display Books Data section
 
 const displayBooks = () => {
   const booksList = document.querySelector('.books');
@@ -67,7 +67,7 @@ const displayBooks = () => {
   saveBooks();
 };
 
-//Get Form Data from Local Storage section
+// Get Form Data from Local Storage section
 
 const form = document.querySelector('form');
 const title = form.querySelector('#title');
