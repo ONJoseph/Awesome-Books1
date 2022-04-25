@@ -21,7 +21,7 @@
 ## Getting Started
 
 Clone the repository by using:
-'  '
+' https://github.com/ONJoseph/Awesome-Books1.git '
 
 
 ## Authors
@@ -37,7 +37,7 @@ Clone the repository by using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/ONJoseph/Awesome-Books1/issues).
 
 ## Show your support
 
